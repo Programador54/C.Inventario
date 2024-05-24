@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('imagenes/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+
+
+.general{
+    margin: auto;
+    width: 1000px;
+    height: 620px;
+}
+.divicion{
+    float: left;
+    width:480px ;
+    height: auto;
+    background-color: yellowgreen;
+}
+.divicion2{
+    text-align: center;
+    float: right;
+    width: 490px;
+    height: auto;
+    background-color: cyan;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+/* Estilos para los formularios */
+form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea,
+form select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    height: 8px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table th,
+    table td {
+        padding: 1px; /* Reduce el espacio de relleno */
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px; /* Reduce el tamaño de la fuente */
+    }
+
+
+    table th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
